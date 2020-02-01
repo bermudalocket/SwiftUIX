@@ -40,7 +40,7 @@ extension PageControl: UIViewRepresentable {
         let uiView = UIPageControl()
         
         uiView.numberOfPages = numberOfPages
-        uiView.tintColor = Color.accentColor.toUIColor()
+        uiView.pageIndicatorTintColor = Color.accentColor.toUIColor()
         
         uiView.addTarget(
             context.coordinator,
